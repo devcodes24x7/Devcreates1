@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Website</title>
+  </head>
+  <body>
+  <style>
+  /* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+  </style>
+    <header>
+	  <img src="Devcreates (1).png" alt="My Logo" height="100px",width="100px">
+      <h1>Internship Opportunity</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#internship-program">Internship Program</a></li>
+        <li><a href="#application-process">Application Process</a></li>
+        <li><a href="#internship-faq">Internship FAQ</a></li>
+		<li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="internship-program">
+        <h2>Internship Program</h2>
+        <p>Our internship program provides students with real-world experience in a variety of field. Interns work alongside experienced professionals on projects that are critical to the success of our company.</p>
+		<p>Perks:</p>
+		<p>1.Offer Letter</p>
+		<p>2.Certificate</p>
+		<p>3.Goodies(Depends on your work)</p>
+		<p>4.Letter of recommendation (Depends)</p>
+      </section>
+      <section id="application-process">
+        <h2>Application Process</h2>
+        <p>To apply for our internship program, please fill out the online application form (Link given below) and attach your resume and cover letter. We will review your application and contact you if you are selected for an interview.</p>
+        <br><a href="https://forms.gle/nDgtVkYXSNAncGPn9"><button>Apply Now</button></a>
+      </section>
+      <section id="internship-faq">
+        <h2>Internship FAQ</h2>
+        <ul>
+          <li>
+            <h3>What is the duration of the internship?</h3>
+            <p>Our internships typically last for 1 months, depending on the department and project.</p>
+          </li>
+          <li>
+            <h3>Is the internship paid?</h3>
+            <p>Both Yes and no, We analze the work done by you and in every round we pay students with goodies.</p>
+          </li>
+          <li>
+            <h3>What are the eligibility criteria for the internship?</h3>
+            <p>We require applicants to be enrolled in a college or university program and have a good coding skill.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023</p>
+	  <a href="https://www.linkedin.com/in/dev-creates-9329a4267/"><img src="data:image/png;base64,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
+	  AAAAASUVORK5CYII=" height="20px" width="20px"></a>
+    </footer>
+  </body>
+</html>
